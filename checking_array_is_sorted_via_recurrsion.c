@@ -1,11 +1,11 @@
 #include<stdio.h>
 int sort(int arr[] ,int n)
 {
-    if(n == 0)
+    if(n == 1)
     {
         return 1;
     }
-    if(arr[n] < arr[n-1])
+    if(arr[n-1] < arr[n-2])
     {
         return 0;
     }
